@@ -21,7 +21,7 @@ public class EventsController {
         return eventService.createEvent(event);
     }
 
-    //Update Event (PATCH)
+    //Update Event (PATCHer)
     @PatchMapping("/update/{id}")
     public String updateEvent(@PathVariable Long id,
                               @RequestBody Events event) {
